@@ -1,0 +1,50 @@
+@media (max-width:1024px) {
+  .index #out-shadow {
+    width:658px;
+    margin:0 auto 30px;
+  }
+  .index #main-wrapper,.index #sidebar-wrapper {
+    float:none;
+    display:block;
+    width:auto;
+    margin:0 10px;
+    overflow:visible;
+  }
+  .index #sidebar-wrapper {
+    overflow:hidden;
+    margin-top:10px;
+    display:none;
+  }
+  #ribbon-top {display:none;}
+}
+@media (max-width:700px) {
+  .index #out-shadow {
+    width:auto;
+    margin:0 auto 20px;
+  }
+  .index .post-outer {
+    float:none;
+    display:block;
+    width:auto;
+  }
+  #slider,.description {display:none;}
+  #ribbon-top {display:none;}
+  #kotak-pesan {
+    position:fixed !important;
+    position:absolute;
+    padding:auto;
+    height:auto;
+    width:auto;
+    text-align:center;
+    top:3%;
+    right:3%;
+    left:3%;
+  }
+  .amung {
+    text-align:center;
+    border:none;
+    box-shadow:none;
+    padding:0;
+  }
+  #notif-alert,#cse-search-box,.histat {display:none;}
+}

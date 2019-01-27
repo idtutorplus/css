@@ -1,0 +1,119 @@
+.index #main-nav {border-bottom:1px solid #222;}
+.index #main-wrapper {
+  background-color:#333;
+  background-image:none;
+  border-color:#ebebeb;
+  -webkit-box-shadow:0 1px 2px rgba(0,0,0,.4);
+  -moz-box-shadow:0 1px 2px rgba(0,0,0,.4);
+  box-shadow:0 1px 2px rgba(0,0,0,.4);
+}
+.index .custom-status-message {
+  color:#999;
+  border-top:1px solid #444;
+  border-bottom:1px solid #222;
+}
+.index .custom-status-message a {color:#5687b8;}
+.index .post-outer {
+  float:left;
+  width:50%;
+}
+.index .post {
+  margin:0;
+  padding:0;
+  border:none;
+  color:#999;
+  -webkit-box-shadow:inset -1px 0 0 #222,inset 1px 0 0 #444;
+  -moz-box-shadow:inset -1px 0 0 #222,inset 1px 0 0 #444;
+  box-shadow:inset -1px 0 0 #222,inset 1px 0 0 #444;
+}
+.index .post-title {
+  border:0 solid;
+  border-top:1px solid #444;
+  border-bottom:1px solid #222;
+  padding:0 15px;
+  font:normal normal 14px/36px Alike,Georgia,"URW Bookman L",Serif;
+  height:36px;
+  overflow:hidden;
+  text-transform:uppercase;
+  text-shadow:0 -1px 0 #111;
+}
+.index .post-title:hover {border-left:4px solid #066696;}
+.index .post-thumbnail {
+  width:72px;
+  height:72px;
+  background-color:#222;
+  float:left;
+  margin-right:10px;
+  overflow:hidden;
+}
+.index .post-body {
+  margin:0;
+  border:none;
+  border-top:1px solid #444;
+  border-bottom:1px solid #222;
+  height:130px;
+  font-size:96%;
+  text-align:right;
+  position:relative;
+}
+.index .post-snippet {
+  position:relative;
+  word-wrap:break-word;
+  overflow:hidden;
+}
+.index .post-snippet:before {content:attr(data-snip);}
+.index .post-footer,img.icon-action {display:none;}
+.index .snippet-list {margin:0;}
+.index .snippet-list li {
+  list-style:none;
+  padding:0;
+  margin:0;
+  border-top:1px solid #444;
+  border-bottom:1px solid #222;
+}
+.index .snippet-list a {
+  display:block;
+  padding:.7em 1.2em;
+  font-size:130%;
+  font-family:Alike,Georgia,"URW Bookman L",Serif;
+  text-decoration:none;
+  text-shadow:0 -1px 0 #222;
+  color:#4A8DBD;
+  overflow:hidden;
+}
+.index .snippet-list a:active,.index .snippet-list a.active {color:white;}
+.index .snippet-list .label-name {
+  background-color:#999;
+  text-shadow:none;
+  color:white;
+  font-size:10px;
+  font-weight:normal;
+  font-family:Ubuntu,Trebuchet,"Trebuchet MS",Arial,Sans-Serif;
+  text-transform:uppercase;
+  padding:4px 7px;
+  display:block;
+  float:right;
+  margin-left:4px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+}
+.index .snippet-list .label-name.CSS {background-color:#5DA028;}
+.index .snippet-list .label-name.JavaScript {background-color:#888;}
+.index .snippet-list .label-name.jQuery {background-color:#7073CF;}
+.index .snippet-list .label-name.XML {background-color:#d4d5f0;}
+.index .snippet-list .label-name.HTML {background-color:#70a2ce;}
+.index .snippet-list .label-name.Profil {background-color:#b8bae7;}
+.index .snippet-list .label-name.Code Snippet {background-color:#73ce70;}
+.index .snippet-list .label-name.Kamus Blogspot {background-color:#00FF00;color:#222;}
+.index .snippet-list .label-name.Sidebar {background-color:#99CCFF;color:#222;}
+.index .snippet-list .label-name.Design Blog {background-color:#e2e3f5;}
+.index .snippet-list .label-name.Pre {background-color:#00CC33;}
+.index #blog-pager {border-top:1px solid #3c3c3c;}
+.index .ad-banner-5 {
+  padding:.5em 1em;
+  border-top:1px solid #444;
+  border-bottom:1px solid #222;
+  text-align:left;
+  line-height:0;
+}

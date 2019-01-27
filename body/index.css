@@ -1,0 +1,19 @@
+html,#iframe {
+  overflow:hidden;
+  width:100% !important;
+}
+iframe,#iframe {background-color:transparent;}
+#iframe,iframe {
+  position:absolute;
+  width:100% !important;
+  height:100% !important;
+  border:none !important;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+#iframe {
+  margin:0 !important;
+  padding:0!Important;
+}
